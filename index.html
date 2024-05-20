@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão de Beleza Amanda</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        header, footer { background-color: #ffc0cb; color: #fff; padding: 10px 20px; }
+        footer { font-size: 0.8em; }
+        main { padding: 15px; }
+        img { max-width: 100%; height: auto; }
+        .agendamento { background-color: #f0f0f0; padding: 20px; margin-top: 20px; }
+        .agendamento h3 { color: #333; }
+        .agendamento form { max-width: 300px; margin: auto; }
+        .agendamento input, .agendamento button { width: 100%; padding: 10px; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salão de Beleza Amanda</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo ao Salão de Beleza Amanda</h2>
+            <p>Oferecemos uma experiência de beleza completa com profissionais qualificados e produtos de alta qualidade.</p>
+            <img src="salaodebeleza.jpg" alt="Interior do Salão de Beleza Amanda">
+        </section>
+
+        <section class="agendamento">
+            <h3>Marque seu horário</h3>
+            <form id="formAgendamento">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <input type="tel" placeholder="Seu telefone" required>
+                <input type="datetime-local" required>
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Salão de Beleza Amanda. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('formAgendamento').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Seu horário foi marcado com sucesso!');
+            // Aqui você pode adicionar a lógica para enviar os dados do formulário para o servidor
+        });
+    </script>
+</body>
+</html>
+
+<section class="servicos">
+    <h2>Nossos Serviços</h2>
+    <p>Descubra a variedade de serviços que oferecemos para realçar sua beleza e bem-estar:</p>
+    <ul>
+        <li><strong>Corte de Cabelo:</strong> Estilos modernos e clássicos para todos os tipos de cabelo.</li>
+        <li><strong>Coloração:</strong> Técnicas avançadas para uma cor vibrante e duradoura.</li>
+        <li><strong>Manicure e Pedicure:</strong> Cuidados completos para mãos e pés, incluindo esmaltação em gel.</li>
+        <li><strong>Tratamentos Faciais:</strong> Limpeza de pele, hidratação e mais para um rosto radiante.</li>
+        <li><strong>Massagens:</strong> Relaxantes, terapêuticas e modeladoras para seu bem-estar.</li>
+    </ul>
+    <img src="servicos_salaodebeleza.jpg" alt="Diversos serviços sendo oferecidos no Salão de Beleza Amanda">
+</section>
+

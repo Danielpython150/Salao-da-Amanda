@@ -1,0 +1,69 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Cor de fundo suave para o corpo do site */
+    color: #333; /* Cor padrão do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+header, footer {
+    background-color: #ff91a4; /* Um rosa mais suave para o cabeçalho e rodapé */
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center; /* Centraliza o texto do cabeçalho e rodapé */
+}
+
+footer {
+    font-size: 0.8em;
+    border-top: 5px solid #ff91a4; /* Adiciona uma borda superior para definir o rodapé */
+}
+
+main {
+    padding: 25px;
+    margin-top: 20px; /* Adiciona espaço acima do conteúdo principal */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Garante que a imagem não tenha espaço extra embaixo */
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo */
+}
+
+/* Estilos da Seção de Agendamento */
+.agendamento {
+    background-color: #ffffff; /* Fundo branco para destacar a seção */
+    padding: 30px;
+    margin: 40px auto; /* Aumenta a margem para centralizar e destacar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da seção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.agendamento h3 {
+    color: #ff91a4; /* Cor do título da seção de agendamento */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.agendamento form {
+    max-width: 400px; /* Aumenta a largura máxima do formulário */
+}
+
+.agendamento input, .agendamento button {
+    width: calc(100% - 20px); /* Calcula a largura correta com o padding */
+    padding: 15px; /* Aumenta o padding para melhor toque */
+    margin-bottom: 15px; /* Aumenta a margem entre os campos */
+    border: 1px solid #ff91a4; /* Adiciona uma borda sutil */
+    border-radius: 4px; /* Bordas levemente arredondadas para os campos */
+}
+
+.agendamento button {
+    background-color: #ff91a4; /* Botão com a cor tema do site */
+    color: #fff;
+    font-weight: bold; /* Texto em negrito para o botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.agendamento button:hover {
+    background-color: #ff7290; /* Cor do botão ao passar o mouse */
+}
